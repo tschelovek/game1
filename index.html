@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="style.css">
+	<script defer src="game.js"></script>
+</head>
+<body>
+<section class="game">
+	<div class="intro">
+		<ul>
+		<li>
+			<span
+			class="intro__text">Укажите количество карточек по вертикали и горизонтали (чётное, не больше 10-ти)</span>
+		</li>
+		<li><input type="number" id="width-select" class="input" placeholder="По горизонтали"></li>
+		<li><input type="number" id="height-select" class="input" placeholder="По вертикали"></li>
+		<li><button id="start" class="btn-start btn">Начать игру</button></li>
+		</ul>
+	</div>
+	<div class="field hide">
+		<div class="field-body">
+
+		</div>
+		<ul class="end-button">
+			<li>
+				<span class="timer"></span>
+			</li>
+			<li>
+				<button class="btn-again btn hide">Сыграть ещё раз</button>
+			</li>
+			<li>
+				<button class="btn-back btn">В меню</button>
+			</li>
+		</ul>
+	</div>
+</section>
+</body>
+</html>

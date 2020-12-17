@@ -1,0 +1,60 @@
+* {
+	font-family: sans-serif;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+.game {
+	margin: auto;
+	max-width: 1500px;
+	background: antiquewhite;
+	min-height: 100vh;
+}
+
+.hide {
+	display: none;
+}
+
+.intro, .field {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.input {
+	margin: 5px auto;
+	display: inline-block;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	margin: 5px;
+	width: 80px;
+	height: 80px;
+	color: aquamarine;
+	background-color: aquamarine;
+	font-size: 50px;
+	line-height: 80px;
+	border: 2px solid #333333;
+}
+
+.open, .guessed {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.timer {
+	font-size: 30px;
+}
+
+.btn {
+	margin: 5px auto;
+	padding: 8px 25px 8px;;
+	border-radius: 6px;
+}
